@@ -4,3 +4,6 @@ center {
     margin-right: auto;
     display: block;
 }
+.nav {
+    background-color: yellow;
+}
