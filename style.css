@@ -6,4 +6,5 @@ center {
 }
 .nav {
     background-color: yellow;
+    position: sticky;
 }
