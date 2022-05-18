@@ -55,7 +55,7 @@ function setup() {
   purplebutton = createButton("purple")
   blackbutton = createButton("black")
   eraserbutton = createButton("<img src=\"erase.svg\">")
-  savebutton  = createButton("save")
+  savebutton  = createButton("save");
   // what to do when buttons are clicked
   redbutton.mousePressed(setred);
   orangebutton.mousePressed(setorange);
@@ -65,7 +65,7 @@ function setup() {
   purplebutton.mousePressed(setpurple);
   blackbutton.mousePressed(setblack);
   eraserbutton.mousePressed(eraser);
-  savebutton.mousePressed(saveDrawing)
+  savebutton.mousePressed(saveDrawing);
   // style buttons
   redbutton.style("background-color: red; color: white;");
   orangebutton.style("background-color: orange; color: white;");
