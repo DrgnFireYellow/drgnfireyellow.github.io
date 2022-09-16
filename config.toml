@@ -1,0 +1,4 @@
+baseURL = 'https://drgnfireyellow.github.io'
+languageCode = 'en-us'
+title = 'DrgnFireYellow'
+theme = 'LoveIt'
