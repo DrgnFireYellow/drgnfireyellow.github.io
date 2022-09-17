@@ -7,6 +7,8 @@ theme = 'LoveIt'
   title = 'DrgnFireYellow'
   [params.header.title]
     name = "DrgnFireYellow"
+    logo = "/images/avatar.png"
   [params.home.profile]
     title = "DrgnFireYellow"
-    subtitle = "Hello world"
+    subtitle = "Student, Developer"
+    avatarURL = "/images/avatar.png"
