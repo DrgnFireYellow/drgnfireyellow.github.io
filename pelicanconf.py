@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = ()
+SOCIAL = (("@DrgnFireYellow", "https://github.com/DrgnFireYellow"),)
 
 DEFAULT_PAGINATION = 10
 
