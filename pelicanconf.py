@@ -2,7 +2,7 @@ AUTHOR = 'DrgnFireYellow'
 SITENAME = "DrgnFireYellow's Site"
 SITEIMAGE = "images/bitmoji.png"
 BOOTSTRAP_CSS = "https://bootswatch.com/5/quartz/bootstrap.css"
-SITEURL = 'https://master.d49fvfafd6i99.amplifyapp.com'
+SITEURL = 'https://www.drgnfireyellow.com/'
 
 PATH = 'content'
 
