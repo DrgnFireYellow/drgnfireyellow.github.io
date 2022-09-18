@@ -1,7 +1,7 @@
 AUTHOR = 'DrgnFireYellow'
 SITENAME = "DrgnFireYellow's Site"
-SITEIMAGE = "content/images/bitmoji.png"
-SITEURL = 'https://master.d49fvfafd6i99.amplifyapp.com/'
+SITEIMAGE = "images/bitmoji.png"
+SITEURL = 'https://master.d49fvfafd6i99.amplifyapp.com'
 
 PATH = 'content'
 
