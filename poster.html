@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="robots" content="noindex">
+        <title>The History of Animation</title>
+        <style>
+            body {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/animation-9403059_1280.jpg");
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1, p {
+                color: white;
+            }
+
+            a:link, a:visited {
+                color: pink;
+            }
+
+            footer {
+                position: absolute;
+                left: 50%;
+                bottom: 2vh;
+                transform: translate(-50%, 0);
+            }
+
+            #title {
+                text-align: center;
+                font-size: 5vw
+            }
+
+            #presenter {
+                text-align: center;
+                font-size: 2vw;
+            }
+
+            #date {
+                text-align: center;
+                font-size: 1.5vw;
+            }
+
+            #signup {
+                text-align: center;
+                font-size: 5vw;
+                font-weight: bold;
+            }
+
+            #hook {
+                margin-top: 15vh;
+                font-size: 1.5vw;
+                font-weight: bold;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.25vw;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">The History of Animation</h1>
+        <p id="presenter">with Ethan the 3D Artist</p>
+        <p id="date">Junior Presentation at Athena's on <b>July 8th 2025</b> at <b>10:00 AM Pacific</b></p>
+
+        <p id="hook">We've all seen animated movies and shows before, but have you ever wondered how they got to the point they're at today?</p>
+
+        <footer>
+            <p>Proceeds go to the <a href="https://www.blender.org/about/foundation/">Blender Foundation</a></p>
+            <p id="signup">Sign Up <a href="https://athenasacademy.com/about-us/junior-presenters/">Here!</a></p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Flip.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+
+        <script>
+            let cool3DShadow = "0px 1px 0px #777,\
+            0px 2px 0px #777,\
+            0px 3px 0px #777,\
+            0px 4px 0px #777,\
+            0px 5px 0px #777";
+
+            let titleText = SplitText.create("#title");
+            let titleTimeline = gsap.timeline();
+            let bigImageTimeline = gsap.timeline();
+            titleTimeline.from(titleText.chars, {duration: 0.4, y: 50, stagger: 0.025})
+                .to(["#title", "#hook"], {duration: 1, textShadow: cool3DShadow, y: -5});
+            // bigImageTimeline.to("#bigimage", {duration: 0.25, width: "42vw"})
+            //     .to("#bigimage", {duration: 0.25, width: "40vw"})
+            //     .to("#bigimagecaption", {duration: 0.5, opacity: 1})
+        </script>
+    </body>
+</html>
