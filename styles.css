@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Fredoka:wght@300..700&display=swap');
+
+:root {
+    --ink: #292929;
+}
+
+body {
+    background-color: #f9eed2;
+    color: var(--ink);
+    font-family: 'Baloo 2', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+.sign {
+    text-align: center;
+    background-color: #ba8c63;
+    color: #fff9f8;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: var(--ink) 4px solid;
+    transform: rotate(1deg)
+}
+
+.construction-banner {
+    width: 25%;
+    display: block;
+    margin: 4px auto;
+    image-rendering: pixelated;
+}
