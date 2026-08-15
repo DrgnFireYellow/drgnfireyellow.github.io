@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f9eed2;
+    background-color: #fff1a8;
     color: var(--ink);
     font-family: 'Baloo 2', sans-serif;
 }
@@ -18,14 +18,14 @@ h2 {
 
 .sign {
     text-align: center;
-    background-color: #ba8c63;
+    background-color: #d95772;
     color: #fff9f8;
     width: fit-content;
     margin: 0 auto;
     padding: 12px;
     border-radius: 8px;
     border: var(--ink) 4px solid;
-    transform: rotate(1deg)
+    transform: rotate(1deg);
 }
 
 .construction-banner {
