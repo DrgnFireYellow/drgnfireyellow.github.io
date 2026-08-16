@@ -28,6 +28,29 @@ h2 {
     transform: rotate(1deg);
 }
 
+.about {
+    background-color: #fff9f8;
+    width: 40%;
+    margin: 8px auto;
+    padding: 12px;
+    border: var(--ink) 4px solid;
+    border-radius: 8px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content li {
+    list-style-type: none;
+}
+
+.profile-picture {
+    border-radius: 12px;
+    width: 10vw;
+}
+
 .construction-banner {
     width: 25%;
     display: block;
