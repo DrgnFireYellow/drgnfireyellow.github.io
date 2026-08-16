@@ -2,7 +2,7 @@
 
 :root {
     --ink: #292929;
-    --white: #fff9f8;
+    --coconut: #fff9f8;
     --guava: #d95772;
     --sakura: #feaedb;
     --banana: #fff1a8;
@@ -23,7 +23,7 @@ h2 {
 .sign {
     text-align: center;
     background-color: var(--guava);
-    color: var(--white);
+    color: var(--coconut);
     width: fit-content;
     margin: 0 auto;
     padding: 12px;
@@ -33,7 +33,7 @@ h2 {
 }
 
 .about {
-    background-color: var(--white);
+    background-color: var(--coconut);
     width: 35%;
     margin: 12px auto;
     padding: 12px;
@@ -66,7 +66,7 @@ h2 {
 }
 
 .navigation > a {
-    color: var(--white);
+    color: var(--coconut);
     text-decoration: none;
     padding: 0 4px;
     display: inline-block;
