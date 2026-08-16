@@ -2,10 +2,14 @@
 
 :root {
     --ink: #292929;
+    --white: #fff9f8;
+    --guava: #d95772;
+    --sakura: #feaedb;
+    --banana: #fff1a8;
 }
 
 body {
-    background-color: #fff1a8;
+    background: linear-gradient(var(--banana), var(--sakura));
     color: var(--ink);
     font-family: 'Baloo 2', sans-serif;
 }
@@ -18,8 +22,8 @@ h2 {
 
 .sign {
     text-align: center;
-    background-color: #d95772;
-    color: #fff9f8;
+    background-color: var(--guava);
+    color: var(--white);
     width: fit-content;
     margin: 0 auto;
     padding: 12px;
@@ -29,7 +33,7 @@ h2 {
 }
 
 .about {
-    background-color: #fff9f8;
+    background-color: var(--white);
     width: 35%;
     margin: 12px auto;
     padding: 12px;
@@ -49,6 +53,28 @@ h2 {
 .profile-picture {
     border-radius: 12px;
     width: 10vw;
+}
+
+.navigation {
+    background-color: indigo;
+    margin: 12px auto;
+    text-align: center;
+    width: fit-content;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navigation > a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0 4px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.navigation > a:hover {
+    background-color: var(--guava);
 }
 
 .construction-banner {
