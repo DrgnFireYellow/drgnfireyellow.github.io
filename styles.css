@@ -9,6 +9,7 @@
 }
 
 body {
+    min-height: 100vh;
     background: linear-gradient(var(--banana), var(--sakura));
     color: var(--ink);
     font-family: 'Baloo 2', sans-serif;
@@ -34,6 +35,7 @@ h2 {
 
 .about {
     background-color: var(--coconut);
+    min-width: min-content;
     width: 35%;
     margin: 12px auto;
     padding: 12px;
@@ -75,6 +77,29 @@ h2 {
 
 .navigation > a:hover {
     background-color: var(--guava);
+}
+
+.back-sign {
+    background-color: var(--guava);
+    color: var(--coconut);
+    text-decoration: none;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 8px;
+    border-radius: 8px;
+    border: var(--ink) 4px solid;
+    transform: rotate(-3deg);
+}
+
+@media (max-width: 700px) {
+    .back-sign {
+        position: static;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: rotate(-3deg);
+    }
 }
 
 .construction-banner {
