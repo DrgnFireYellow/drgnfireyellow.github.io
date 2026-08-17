@@ -128,4 +128,14 @@ h2 {
     display: block;
     margin: 4px auto;
     image-rendering: pixelated;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.25s;
+}
+
+.construction-banner:hover {
+    transform: scale(1.05);
+}
+.construction-banner:active {
+    transform: scale(1);
 }
